@@ -1,5 +1,5 @@
 # buildx with 
-# docker buildx build -t andrewufrank/xfce:v1 --platform linux/arm/v7,linux/arm64,linux/amd64  --push .
+# docker buildx build -t andrewufrank/xfce:deb10.1.x1 --platform linux/arm/v7,linux/arm64,linux/amd64  --push .
 
 # x11docker/xfce but built on basics
 # 
