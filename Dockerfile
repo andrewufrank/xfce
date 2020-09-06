@@ -27,7 +27,7 @@
 #
 # Look at x11docker --help for further options.
 
-FROM andrewufrank/xfce-tools:v1
+FROM andrewufrank/xfce-tools:deb10.1
 # debian buster with some non-gui tools and stuff for x11docker
 
 RUN apt-get update && apt-mark hold iptables && \
